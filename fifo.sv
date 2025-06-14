@@ -6,7 +6,7 @@ module fifo (input clk,
              input rst_n,
              input rd_n,
              input [`Data_width-1:0] data_in,
-             input [`Data_width-1:0] data_out,
+             output [`Data_width-1:0] data_out,
              input over_flow,
              input under_flow);
 
